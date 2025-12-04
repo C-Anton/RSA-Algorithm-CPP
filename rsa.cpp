@@ -6,7 +6,6 @@
 // long long ints and doubles are used due to the algorithms (typically) really big numbers
 
 // Holds public and private keys
-// Using long long ints since the numbers used can be extremely big
 namespace Key {
     struct Public {
         long long int n{};
@@ -235,4 +234,5 @@ int main() {
         std::cout << "Encoding/Decoding failed.\n";
 
     return 0;
+
 }
